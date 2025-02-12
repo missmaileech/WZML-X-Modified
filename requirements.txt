@@ -33,6 +33,7 @@ pymongo
 git+https://github.com/Hrishi2861/pyrofork-2.2.11-peer-fix.git
 python-dotenv
 python-magic
+pytz
 qbittorrent-api
 requests
 speedtest-cli
@@ -41,4 +42,4 @@ tenacity
 tgcrypto
 uvloop
 xattr
-yt-dlp
+yt-dlp[default,curl-cffi]
